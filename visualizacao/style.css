@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #ffffff;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap: 7px;
+    list-style: none;
+}
+.container{
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px #2a3f4d;
+}
+h1 {
+    text-align: center;
+    color: #2a3f4d;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .vitinho{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .felizes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .vt{
+    display: block;
+    margin: 0 auto;
+    height: 30vh;
+  }
