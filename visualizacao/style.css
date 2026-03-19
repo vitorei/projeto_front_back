@@ -32,9 +32,7 @@ header {
   transition: transform 0.3s;
 }
 
-
-
-.main-container {
+ .main-container {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -43,8 +41,7 @@ header {
   flex-wrap: wrap;
 }
 
-
-.container {
+ .container {
   flex: 1 1 350px;
   max-width: 417px;
   background-color: #ffffff;
@@ -76,8 +73,7 @@ input {
   transition: border-color 0.3s;
 }
 
-
-.felizes {
+ .felizes {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,10 +95,12 @@ input {
 
 .velha {
   max-width: 830px;
+  width: 100%; 
   border-radius: 8%;
   margin-top: -50px;
 }
-.btn {
+
+.bbb {
   background: rgb(44, 39, 39);
   color: white;
   border: none;
@@ -111,4 +109,36 @@ input {
   margin-top: 12px;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px 15px;
+  }
+
+  .ulu {
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .bbb {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .vt {
+    max-height: 20vh;
+    
+  }
 }
